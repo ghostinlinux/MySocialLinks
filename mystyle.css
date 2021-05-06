@@ -11,3 +11,6 @@ background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, F
     color: red;
   }
 
+.myfont{
+    font-family: 'Marck Script', cursive;
+}
