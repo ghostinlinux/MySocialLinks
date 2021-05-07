@@ -3,14 +3,46 @@ background: #FC466B;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.onhover:hover {
-    background-color: 	Magenta;
-  }
 
-  .onhover2:hover {
+.active-border{
+  
+  padding-right: 20%;
+  padding-left: 20%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 15%;
+
+}
+.active-border:hover{background-color: 	Magenta;}
+
+.onhover2:hover {
     color: red;
-  }
+}
+
+#first{
+  border: 2px solid tomato;
+}
+
+#second{
+  border: 2px solid rgb(247, 142, 94);
+}
+
+#third{
+  border: 2px solid rgb(218, 29, 139) ;
+}
+
+#forth{
+  border: 2px solid rgb(172, 31, 7) ;
+}
+
+#fifth{
+  border: 2px solid  rgb(181, 71, 255);
+}
 
 .myfont{
     font-family: 'Marck Script', cursive;
+}
+
+div{
+  margin: 15px;
 }
